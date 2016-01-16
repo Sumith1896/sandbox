@@ -1,0 +1,5 @@
+script: bash ./deploy.sh
+env:
+  global:
+  - GH_REF: github.com/<your name>/<your repo>.git
+  - secure: "<.... encrypted data from above ....>"
